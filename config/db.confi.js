@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 require('dotenv').config(); // Load environment variables
 
-const uri = process.env.MONGODB_URI;
+// const uri = process.env.MONGODB_URI;
+const uri = process.env.BASE_URL;
 
 // mongodb connect...
 function connectToDatabase() {

@@ -2,7 +2,7 @@
   "name": "hrmsprojects",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "engines": {
     "node": "18.x"
   },
@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/local-auth": "^3.0.0",
     "@vercel/node": "^3.0.8",
     "bcrypt": "^5.1.1",
     "body-parser": "^1.20.2",
